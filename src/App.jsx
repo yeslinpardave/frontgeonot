@@ -214,27 +214,8 @@ const App = () => {
               />
             </>
           )}
-          {reportType === "day" && (
-            <>
-              <input
-                type="date"
-                name="day"
-                placeholder="Fecha"
-                onChange={handleChange}
-                className="border p-2 rounded"
-              />
-              
-            </>
-          )}
-          {reportType === "month" && (
-            <input
-              type="month"
-              name="month"
-              placeholder="Mes"
-              onChange={handleChange}
-              className="border p-2 rounded"
-            />
-          )}
+          
+          
           {reportType === "detail" && (
             <>
               <input
